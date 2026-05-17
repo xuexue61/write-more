@@ -66,7 +66,7 @@ npm test
 3. 部署后，将插件设置里的 `Vercel 代理地址` 配置为：
 
 ```text
-https://write-more-api.vercel.app/api/generate-themes
+https://obsidian-write.vercel.app/api/generate-themes
 ```
 
 本地开发可参考 `.env.example` 创建 `.env.local`，但不要提交 `.env.local`。

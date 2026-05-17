@@ -70,7 +70,7 @@ const DEFAULT_SETTINGS: WriteOrDieSettings = {
   showTodayFiles: false,
   selectedPracticeType: DEFAULT_PRACTICE_TYPE,
   generationProvider: DEFAULT_GENERATION_PROVIDER,
-  proxyEndpoint: "https://write-more-api.vercel.app/api/generate-themes",
+  proxyEndpoint: "https://obsidian-write.vercel.app/api/generate-themes",
   clientId: "",
   themeCache: null
 };
@@ -715,7 +715,7 @@ class WriteOrDieSettingTab extends PluginSettingTab {
 
     new Setting(containerEl)
       .setName("Vercel 代理地址")
-      .setDesc("使用官方免费额度时调用的后端地址，例如 https://write-more-api.vercel.app/api/generate-themes。")
+      .setDesc("使用官方免费额度时调用的后端地址，例如 https://obsidian-write.vercel.app/api/generate-themes。")
       .addText((text) =>
         text
           .setPlaceholder("https://your-project.vercel.app/api/generate-themes")
