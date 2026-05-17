@@ -1,0 +1,9 @@
+{
+  "id": "write-or-die",
+  "name": "Write More / 不写就会死",
+  "version": "1.0.0",
+  "minAppVersion": "1.8.7",
+  "description": "Write More helps writers track daily writing and generate Chinese fiction exercises with DeepSeek.",
+  "author": "xuexue",
+  "isDesktopOnly": true
+}

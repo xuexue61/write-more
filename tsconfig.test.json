@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": [
+      "node"
+    ],
+    "outDir": ".tmp-tests"
+  },
+  "include": [
+    "src/core.ts",
+    "api/**/*.ts",
+    "tests/**/*.ts"
+  ]
+}

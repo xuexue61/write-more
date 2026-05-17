@@ -1,0 +1,8 @@
+node_modules/
+main.js
+.tmp-tests/
+.vercel/
+.env.local
+.env.*.local
+.DS_Store
+npm-debug.log*
