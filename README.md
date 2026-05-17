@@ -2,6 +2,33 @@
 
 English name: `Write More`; Chinese name: `不写就会死`.
 
+Write More is a desktop-only Obsidian plugin for fiction writers who want a small daily writing dashboard inside their vault. It shows a compact calendar, daily writing statistics, and manually generated Chinese fiction practice prompts. The plugin can generate exercises through the author's Vercel proxy or through a user-provided DeepSeek API key.
+
+## English overview
+
+### Features
+
+- Calendar sidebar for tracking which days have new Markdown writing files.
+- Click any date to see that day's word count and number of newly created files.
+- Optional daily file list with quick links to open the files.
+- Manual fiction exercise generation powered by DeepSeek.
+- Practice types: plot, prose, character, pacing, imagination, and free writing.
+- One-click note creation for a selected exercise in a configurable target folder.
+
+### Privacy and network access
+
+- By default, exercise generation sends the selected practice type, theme count, model name, and an anonymous client ID to the author's Vercel proxy.
+- The Vercel proxy calls `https://api.deepseek.com/chat/completions` with a server-side writing coach prompt.
+- The plugin does not upload your vault notes to DeepSeek or to the proxy.
+- The plugin reads Markdown files in the current vault to calculate local writing statistics.
+- The plugin does not access files outside the vault.
+- The plugin does not include telemetry, analytics, advertising, or tracking.
+- Users can switch to their own DeepSeek API key in settings. Custom keys are stored locally in Obsidian plugin data and are not additionally encrypted.
+
+### Installation
+
+After the plugin is accepted into the Obsidian community plugin directory, search for `Write More` or `不写就会死` in Obsidian's community plugins browser. For manual installation, download `main.js`, `manifest.json`, and `styles.css` from the GitHub Release and place them in `.obsidian/plugins/write-or-die/`.
+
 一个面向小说写作者的 Obsidian 桌面端插件。它会在右侧边栏显示写作日历、日期写作统计，并通过 DeepSeek 生成每日写作练习题。
 
 ## 功能

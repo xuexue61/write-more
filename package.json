@@ -1,6 +1,6 @@
 {
   "name": "write-or-die",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Write More helps writers track daily writing and generate Chinese fiction exercises with DeepSeek.",
   "main": "main.js",
   "scripts": {
