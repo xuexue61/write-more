@@ -195,19 +195,19 @@
 }
 
 .write-or-die-calendar button.write-or-die-day {
-  border: 0 !important;
-  border-radius: 0 !important;
-  background: transparent !important;
-  box-shadow: none !important;
-  outline: 0 !important;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  outline: 0;
 }
 
 .write-or-die-calendar button.write-or-die-day:hover,
 .write-or-die-calendar button.write-or-die-day:focus,
 .write-or-die-calendar button.write-or-die-day:active {
-  border: 0 !important;
-  background: transparent !important;
-  box-shadow: none !important;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .write-or-die-empty-day {
